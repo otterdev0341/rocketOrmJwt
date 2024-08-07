@@ -5,3 +5,8 @@ edition = "2021"
 
 [dependencies]
 rocket = {version = "0.5.1", features = ["json"]}
+sea-orm = { version = "1.0.0", features = [
+    "sqlx-mysql", "runtime-async-std-native-tls", "macros"
+]}
+sea-orm-migration  = "1.0.0"
+dotenv = "*"
