@@ -10,3 +10,7 @@ sea-orm = { version = "1.0.0", features = [
 ]}
 sea-orm-migration  = "1.0.0"
 dotenv = "*"
+serde = {version = "*",  features = ["derive"]}
+serde_json = "*"
+jsonwebtoken = "*"
+bcrypt = "*"
